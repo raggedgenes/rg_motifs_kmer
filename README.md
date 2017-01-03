@@ -2,6 +2,7 @@
 RG's utility for motif search.
 
 Example usage:
+---------------
 
 ```js
 var mot2kmer = require('rg_motifs_kmer');
