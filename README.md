@@ -3,6 +3,7 @@ RG's utility for motif search.
 
 Example usage:
 
+```js
 var mot2kmer = require('rg_motifs_kmer');
 var file = "./test/teszt.xml";
 
@@ -25,3 +26,4 @@ mot2kmer.process(file, dummyEncoder).on('error', onERR).on('data', onData).on('e
  function onERR(e) {
 	console.log("error: " + e);
  }
+```
