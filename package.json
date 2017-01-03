@@ -1,0 +1,20 @@
+{
+  "name": "rg_motifs_kmer",
+  "version": "0.0.1",
+  "description": "Ragged Genes' DNA motif utility for motif search.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {	
+	"xml-flow": "^1.0.0" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raggedgenes"
+  },
+  "author": "Szabolcs Makai",
+  "license": "MIT"
+}
